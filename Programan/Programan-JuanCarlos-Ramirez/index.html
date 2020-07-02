@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adopción de mascotas</title>
+  </head>
+  <body>
+    <h1 class="mainTitle">Refugio de mascotas en adopción</h1>
+    <form class="formulario">
+      <div class="form-style-2">
+        <div class="form-style-2-heading">
+          Refugio local de animales en adopción
+        </div>
+        <form action="" method="post">
+          <label for="field1"
+            ><span>Raza:</span
+            ><input
+              id="race"
+              type="text"
+              placeholder="Ingresa la raza"
+              class="input-field"
+          /></label>
+          <label for="field2"
+            ><span>Tamaño:</span
+            ><input
+              id="size"
+              type="text"
+              placeholder="Ingresa el tamaño"
+              class="input-field"
+          /></label>
+          <label for="field3"
+            ><span>Color:</span
+            ><input
+              id="color"
+              type="text"
+              placeholder="Ingresa el color"
+              class="input-field"
+          /></label>
+          <label for="field4"
+            ><span>Edad (Años):</span
+            ><input
+              id="age"
+              type="text"
+              placeholder="Ingresa la edad"
+              class="input-field"
+          /></label>
+          <label for="field5"
+            ><span>Caracteristica:</span
+            ><input
+              id="caracteristica"
+              type="text"
+              placeholder="Presenta alguna caracteristica"
+              class="input-field"
+          /></label>
+
+          <label for="field6"
+            ><span>Estado de adopción:</span
+            ><select name="field6" class="select-field" id="estado">
+              <option value="En adopción">En adopción</option>
+              <option value="Proceso de adopción">Proceso de adopción</option>
+              <option value="Adoptado">Adoptado</option>
+            </select></label
+          >
+          <label
+            ><span> </span
+            ><input type="reset" value="Enviar" onclick="capture();"
+          /></label>
+        </form>
+      </div>
+    </form>
+    <div class="table">
+      <table class="steelBlueCols" id="tabla">
+        <thead>
+          <tr>
+            <th>Raza</th>
+            <th>Tamaño</th>
+            <th>Color</th>
+            <th>Edad</th>
+            <th>Caracteristica</th>
+            <th>Estado de adopción</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
