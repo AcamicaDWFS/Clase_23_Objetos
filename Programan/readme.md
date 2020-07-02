@@ -1,4 +1,5 @@
-:disquete: #H1 Adopción de mascotas
+:floppy_disk: 
+#H1 Adopción de mascotas
 
 Una perrera municipal tiene cientos de perros para dar en adopción.
 El primer paso es realizar un análisis de las características que pueden tener los perros.
