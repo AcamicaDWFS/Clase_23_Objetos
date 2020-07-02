@@ -1,5 +1,4 @@
-:floppy_disk: 
-# Adopción de mascotas
+# Adopción de mascotas :floppy_disk:
 
 Una perrera municipal tiene cientos de perros para dar en adopción.
 El primer paso es realizar un análisis de las características que pueden tener los perros.
