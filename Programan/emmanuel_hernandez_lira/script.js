@@ -28,7 +28,6 @@ class Dog {
         break;
       case 3:
         this.status = "Adoptado";
-        break;
     }
   }
 
@@ -131,21 +130,10 @@ function showDogsReportMenu() {
 function getData() {
   let dog = new Dog();
 
-  for (let i = 0; i < 4; i++) {
-    switch (i) {
-      case 0:
-        dog.setName(prompt("Ingresa el nombre del perro:"));
-        break;
-      case 1:
-        dog.setColor(prompt("Ingresa el color del perro:"));
-        break;
-      case 2:
-        dog.setBreed(prompt("Ingresa la raza del perro:"));
-        break;
-      case 3:
-        dog.setStatus(getDogStatus());
-    }
-  }
+  dog.setName(prompt("Ingresa el nombre del perro:"));
+  dog.setColor(prompt("Ingresa el color del perro:"));
+  dog.setBreed(prompt("Ingresa la raza del perro:"));
+  dog.setStatus(getDogStatus());
 
   dogs.push(dog);
 }
